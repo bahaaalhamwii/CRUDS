@@ -1,0 +1,240 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(220, 214, 214);
+    
+}
+.head{
+    margin: auto;
+    text-align: center;
+    
+   
+}
+.input{
+    width: 90%;
+    height: 270px;
+    background-color: rgb(220, 214, 214);
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+    margin-left: 220px;
+    
+}
+.vcv{
+    width: 70%;
+    height: 40px;
+    border-radius: 5px;
+    border: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    color: black;
+}
+@media(max-width:767px){
+    .input{
+        width: 100%;
+        margin-left: 75px;
+    }
+    .input2{
+        width:100%;
+        display: inline;
+        padding-left: 10px;
+
+    }
+    .input1{
+        padding-left: 10px;
+    }
+    .output{
+        display: inline;
+        width: 100%;
+        margin-right: 90px;
+        
+    }
+    .vcv{
+        width: 70%;
+      margin-left: -145px;
+      padding-left: 10px;
+    }
+   .buttom22{
+    margin-left: 75px;
+   }
+   .delete-all{
+    margin-left: 75px;
+   }
+   table tr th{
+    font-size: 7px;
+   }
+   table{
+    margin-left: 75px;
+    margin-top: 10px;
+    
+   }
+.body-data{
+    font-size: 10px;
+}
+ 
+
+}
+
+.input1{
+    width: 70%;
+    height: 40px;
+    border-radius: 5px;
+    border: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    color: black;
+    padding-left: 10px;
+}
+.input2{
+    padding-left: 10px;
+}
+
+.countainer-ofinputs{
+    width: 70%;
+    height:40px ;
+    background-color: rgb(220, 214, 214);
+    display: flex;
+    flex-direction:row;
+    gap: 20px;
+}
+.total{
+    width: 230px;
+    height: 36px;
+    margin-top: 2px;
+    border: 0;
+    border-radius: 3px;
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    padding-left: 20px;
+}
+.input2{
+    border-radius: 3px;
+    border: 0;
+    background-color: white;
+    color: black;
+
+}
+.creat{
+    display: block;
+    width: 70%;
+    height: 30px;
+    background-color: blueviolet;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    border: 0;
+    border-radius: 9px;
+    transition-property: background-color;
+   transition-duration: 1s;
+}
+.creat:hover{
+   color: black;
+   background-color: white;
+}
+.output{
+    width: 90%;
+    height: auto;
+    background-color: rgb(220, 214, 214);
+    margin: auto;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    margin-left: 220px;
+}
+.buttom22{
+    width: 70%;
+    height: 30px;
+    background-color: rgb(220, 214, 214);
+    position: relative;
+}
+.bt1{
+    width: 40%;
+    height: 30px;
+    position: absolute;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 5px;
+    border: 0;
+    transition-property: background-color;
+    transition-duration: 1s;
+    
+}
+.bt1:hover{
+    color: black;
+    background-color: white;
+}
+.bt2{
+    width: 40%;
+    height: 30px;
+    position: absolute;
+    right: 0;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 5px;
+    border: 0;
+    transition-property: background-color;
+    transition-duration: 1s;
+}
+.bt2:hover{
+    color: black;
+    background-color: white;
+}
+.delete-all{
+    display: block;
+    width: 70%;
+    height: 30px;
+    background-color: blueviolet;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    border: 0;
+    border-radius: 9px;
+    transition-property: background-color;
+   transition-duration: 1s;
+   margin-top:7px;
+}
+.delete-all:hover{
+    color: black;
+    background-color: white;
+ }
+ table{
+    width: 70%;
+    height: auto;
+    text-align: center;
+ }
+ #update{
+width: 60px;
+height: 20px;
+border: 0;
+border-radius: 5px;
+background-color: blueviolet;
+color: white;
+transition-property: background-color;
+transition-duration: 1s;
+ }
+ #update:hover{
+    background-color: brown;
+    color: white;
+ }
+ #delet{
+    width: 60px;
+height: 20px;
+border: 0;
+border-radius: 5px;
+background-color: blueviolet;
+color: white;
+transition-property: background-color;
+transition-duration: 1s;
+
+ }
+ #delet:hover{
+    background-color: brown;
+    color: white;
+ }
+ table th{
+    text-transform: uppercase;
+ }

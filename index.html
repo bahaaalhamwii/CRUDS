@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="head">
+        <h1>CRUDS</h1>
+        <p>PRODUCT MANEGMENT SYSTEM</p>
+
+
+    </div>
+    <div class="input">
+        <input type="text" class="input1" placeholder="title" id="title">
+        <div class="countainer-ofinputs">
+            <input type="text" placeholder="price" class="input2" id="price">
+            <input type="text" placeholder="taxes" class="input2" id="taxes">
+            <input  type="text" placeholder="ads" class="input2" id="ads">
+            <input onkeyup="gettotal()" type="text" placeholder="discount" class="input2"  id="discount">
+            <div  class="total">Total</div>
+        </div>
+        <input type="text" class="input1" placeholder="count" id="number-of-cat">
+        <input type="text" class="input1" placeholder="category" id="category">
+        <button  class="creat">Creat</button>
+    </div>
+    <div class="output">
+        <input onkeyup="searchData(this.value)"  type="text" class="vcv" placeholder="Search" id="search11">
+        <div class="buttom22">
+            <button  onclick="getSearhMood(this.id)" class="bt1" id="search-by-title">Search By Title</button>
+            <button  onclick="getSearhMood(this.id)" class="bt2" id="search-by-categry">Search By Category</button>
+        </div>
+        <button  onclick="deletall()" class="delete-all">DeleteAll</button>
+        <table>
+            <tr>
+                <th>id</th>
+                <th>title</th>
+                <th>price</th>
+                <th>taxes</th>
+                <th>ads</th>
+                <th>discount</th>
+                <th>Total</th>
+                <th>Category</th>
+                <th>update</th>
+                <th>delete</th>
+            </tr>
+            <tbody class="body-data">
+         
+
+            </tbody>
+
+
+
+        </table>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
